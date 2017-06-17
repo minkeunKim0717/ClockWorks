@@ -12,6 +12,7 @@ elif platform.system() == 'Windows':
 	driver = webdriver.Chrome('chromedriver.exe')
 
 syslogin = SystemLogin()
+print 'github test'
 
 try:
 	# Get the information about a sample
